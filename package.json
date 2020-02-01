@@ -1,0 +1,25 @@
+{
+  "name": "totalNote",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./components/**/*.test.js",
+    "test:watch": "onchange \"./*.js\" -- npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielminschinski/totalNote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielminschinski/totalNote/issues"
+  },
+  "homepage": "https://github.com/danielminschinski/totalNote#readme",
+  "devDependencies": {
+    "mocha": "^7.0.1",
+    "yargs": "^15.1.0"
+  }
+}
