@@ -10,7 +10,7 @@ describe('calculateStylePoints', () => {
 
     it('should render correct sum if some notes are the same', () => { // powinien wyświetlić poprawną sumę, jeśli niektóre noty są takie same
         const actual = calculateStylePoints([19.0, 19.5, 19.0, 19.0, 19.0]);
-        const expected = 57.5;
+        const expected = 57;
         assert.equal(actual, expected);
 
     });
