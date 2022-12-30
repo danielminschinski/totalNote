@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/danielminschinski/totalNote#readme",
   "devDependencies": {
-    "mocha": "^7.0.1",
+    "mocha": "^10.2.0",
     "yargs": "^15.1.0"
   }
 }
